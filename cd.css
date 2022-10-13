@@ -1,0 +1,118 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+	background-image: url("pict/83944.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: aliceblue;
+}
+header, .like {
+	display: flex;
+	padding-left: 15px;
+	align-items: baseline;
+	justify-content: space-between;
+	font-family: Georgia, 'Times New Roman', Times, Serif, serif;
+
+}
+header h3{
+	width: 20%;
+}
+
+header ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left:20%;
+	padding-right: 15px;
+	margin-top: -30px;
+	margin-bottom: -20px;
+}
+.field{
+	display:flex;
+	width: 100vw;
+	height: 550px;
+	border-radius: 15px;
+	margin: 5px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding-right: 15px;
+}
+.left{
+	width: 20%;
+	padding-left: 10px;
+}
+.left p,.middle span{
+	display: block;
+	padding-left: 14px;
+	padding-bottom: 13px;
+}
+.left p i, .middle span i{
+	padding-right: 5px;
+}
+.middle span{
+	background-color:dimgrey;
+	border: 2px hidden transparent;
+	font-weight: bold;
+	padding: 10px 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.middle{
+	width:25%;
+	background-color: #404040;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 5px;
+	margin: 15px 5px;
+}
+.right{
+	width:45%;
+	display: block;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.square{
+	display: inline-block;
+	background-color: #404040;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.btn, .Port, .HelpFund, .last{
+	background-color: #404040;
+	text-decoration: none;
+	border: 2px hidden transparent;
+	font-weight: bold;
+	padding: 5px 25px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.HelpFund{
+	height: 170px;
+	background-image: url("pict/istockphoto-1298997952-170667a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
